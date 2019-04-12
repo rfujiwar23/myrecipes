@@ -3,10 +3,14 @@
 
 @import "bootstrap";
 
-.navbar{
-  color:#fff;
-
+nav{
+  background:#343A40;
+  a {
+    color: #fff;
+  }
 }
+
+
 
 #logo {
   float: left;
@@ -49,4 +53,21 @@
   letter-spacing: -1px;
   font-weight: bold;
   text-shadow: 1px 1px 1px #000;
+}
+
+footer {
+  background:#343A40;
+  color:white;
+  p {
+    text-align: right;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: orange;
+    text-decoration: none;
+  }
 }
